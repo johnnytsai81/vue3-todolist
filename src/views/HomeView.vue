@@ -91,10 +91,10 @@ const formDatas: FormItem[] = [
   <DefaultLayout>
     <div class="p-6">
       <div class="flex items-centerm justify-between mb-4">
-        <HugeiconsIcon @click="handleMenu()" class="block lg:hidden hover:text-green-400 transition-all duration-300 cursor-pointer" :icon="Menu01Icon" :size="24" color="currentColor" />
+        <HugeiconsIcon @click="handleMenu()" class="block xl:hidden hover:text-green-400 transition-all duration-300 cursor-pointer" :icon="Menu01Icon" :size="24" color="currentColor" />
         <HugeiconsIcon @click="deleteCurrent()" class="block ml-auto hover:text-green-400 transition-all duration-300 cursor-pointer" :icon="Delete02Icon" :size="24" color="currentColor" :strokeWidth="1.5" />
       </div>
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
         <template
           v-for="(item, index) in formDatas"
           :key="index"

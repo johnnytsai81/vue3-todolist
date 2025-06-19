@@ -46,8 +46,8 @@ const handleMenu = () => {
   <div class="flex flex-col justify-between h-full">
     <div class="overflow-y-scroll">
       <div class="flex items-center justify-between px-[24px] py-[32px]">
-        <div class="text-[24px] lg:text-[32px] font-medium">Demo Todo List</div>
-        <HugeiconsIcon class="block lg:hidden hover:text-green-400 transition-all duration-300 cursor-pointer" @click="handleMenu()" :icon="Cancel01Icon" :size="24" color="currentColor" />
+        <div class="text-[24px] xl:text-[32px] font-medium">Demo Todo List</div>
+        <HugeiconsIcon class="block xl:hidden hover:text-green-400 transition-all duration-300 cursor-pointer" @click="handleMenu()" :icon="Cancel01Icon" :size="24" color="currentColor" />
       </div>
       <div class="flex flex-col gap-1.5">
         <template v-for="(todo, todoIndex) in todoStore.todoData" :key="todo.id">
