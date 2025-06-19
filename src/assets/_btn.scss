@@ -1,0 +1,7 @@
+// 主要按鈕
+.main-btn {
+  @apply bg-green-200 hover:bg-green-400 text-center rounded-[8px] py-[11px] px-4 text-[20px] text-gray-900 cursor-pointer duration-300 transition-all;
+  &:disabled {
+    @apply bg-gray-100 text-gray-400 cursor-not-allowed;
+  }
+}

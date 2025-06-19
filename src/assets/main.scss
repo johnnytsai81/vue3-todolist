@@ -1,0 +1,14 @@
+@use "tailwindcss";
+
+@use "btn";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  @apply text-gray-900;
+  line-height: 1.5;
+  font-family: 'Roboto', 'Noto Sans TC', Arial, "微軟正黑體",sans-serif;
+  font-size: 16px;
+  touch-action: manipulation;
+  overscroll-behavior-y: none;
+  letter-spacing: 0.05rem;
+}
